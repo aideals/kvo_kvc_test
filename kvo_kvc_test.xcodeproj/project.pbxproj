@@ -15,6 +15,7 @@
 		1DC870311D901AF500481C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC8702F1D901AF500481C33 /* LaunchScreen.storyboard */; };
 		1DC8703C1D901AF500481C33 /* kvo_kvc_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8703B1D901AF500481C33 /* kvo_kvc_testTests.m */; };
 		1DC870471D901AF500481C33 /* kvo_kvc_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC870461D901AF500481C33 /* kvo_kvc_testUITests.m */; };
+		1DC870561D901BC000481C33 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC870551D901BC000481C33 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1DC870421D901AF500481C33 /* kvo_kvc_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kvo_kvc_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC870461D901AF500481C33 /* kvo_kvc_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kvo_kvc_testUITests.m; sourceTree = "<group>"; };
 		1DC870481D901AF500481C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC870541D901BC000481C33 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = SOURCE_ROOT; };
+		1DC870551D901BC000481C33 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1DC870251D901AF500481C33 /* AppDelegate.m */,
 				1DC870271D901AF500481C33 /* ViewController.h */,
 				1DC870281D901AF500481C33 /* ViewController.m */,
+				1DC870541D901BC000481C33 /* Person.h */,
+				1DC870551D901BC000481C33 /* Person.m */,
 				1DC8702A1D901AF500481C33 /* Main.storyboard */,
 				1DC8702D1D901AF500481C33 /* Assets.xcassets */,
 				1DC8702F1D901AF500481C33 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				1DC870291D901AF500481C33 /* ViewController.m in Sources */,
 				1DC870261D901AF500481C33 /* AppDelegate.m in Sources */,
+				1DC870561D901BC000481C33 /* Person.m in Sources */,
 				1DC870231D901AF500481C33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = kvo_kvc_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.kvo-kvc-test";
@@ -427,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = kvo_kvc_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.kvo-kvc-test";
